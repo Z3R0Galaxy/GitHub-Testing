@@ -8,8 +8,10 @@ class Me:
     def describe(self):
         print(f"{self.name}'s favorite color is {self.favColor}, favorite number is {self.favNum}, and sport is {self.sport}.")
 
-Orlando = Me("Orlando", "blue", 2, "volleyball")
+Orlando = Me("Orlando", "green", 2, "volleyball")
 Alex = Me("Alex", "red", 6, "F1")
+Avalon = Me("Avalon", "purple", 4, "equestrian")
 
 Orlando.describe()
 Alex.describe()
+Avalon.describe()
